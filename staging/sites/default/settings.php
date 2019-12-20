@@ -777,6 +777,7 @@ $settings['entity_update_backup'] = TRUE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+/**
 $databases['default']['default'] = array (
   'database' => 'wayedesi_drup659',
   'username' => 'wayedesi_drup659',
@@ -793,3 +794,8 @@ $settings['trusted_host_patterns'] = [
    '^www\.wayedesigngroup\.com$',
    '^wayedesigngroup\.com$',
  ];
+#}
+**/
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+    include $app_root . '/' . $site_path . '/settings.local.php';
+}
