@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/wayedsi/public_html/staging
+    - export DEPLOYPATH=/home/wayedesigngroup/public_html/staging
     - /bin/cp -R * $DEPLOYPATH
 
 #deployment:
