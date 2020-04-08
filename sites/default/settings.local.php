@@ -132,7 +132,7 @@ $settings['skip_permissions_hardening'] = TRUE;
 
 $config_directories['sync'] = '../config/sync';
 $databases['default']['default'] = array (
-  'database' => 'wdg',
+  'database' => 'wayedesigngroup',
   'username' => 'root',
   'password' => 'root',
   'prefix' => 'drnn_',
